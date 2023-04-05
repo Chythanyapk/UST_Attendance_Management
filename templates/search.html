@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="search-styles.css">
+
+
+
+    <title>attendance management</title>
+</head>
+
+<body>
+    <section id="title">
+
+        <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">getQuick</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="attendance-heading">
+            <h1>View Attendance </h1>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <form id="formContent" action="">
+
+            <input type="text" id="username" class="fadeIn second" name="username" placeholder="Name">
+
+            <input type="text" id="EmployeeID" class="fadeIn second" name="username" placeholder="EmployeeID">
+            <input type="text" id="CompanyID" class="fadeIn second" name="username" placeholder="CompanyID">
+
+            <input type="text" id="year" class="fadeIn second" name="password" placeholder="year">
+
+
+
+
+
+        </form>
+
+        <input type="submit" onclick="getData()" name="Submit">
+
+        <br />
+    </div>
+
+    <script src="search.js"></script>
+    <div class="container-fluid">
+        <table class="viewtable" table id="data_table" class="table" style="display:table;">
+            <thead>
+                <tr>
+                    <th scope="col">Month</th>
+                    <th scope="col">Days Worked</th>
+                </tr>
+            </thead>
+            <tbody id="data_body">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>

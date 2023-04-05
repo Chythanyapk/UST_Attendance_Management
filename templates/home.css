@@ -1,1 +1,82 @@
+body {
+    font-family: Montserrat;
+    background-color: rgb(44, 44, 227);
+}
 
+/* .top-container{
+          
+         height: 100vh;
+         background-size:cover;
+         display:flex;
+         justify-content:center;
+         align-items: center;
+ 
+ }
+ 
+ .top-container h1{
+         color: black;
+         font-size: 50px;
+         font-family: Impact,Haettenschweller, 'Arial Narrow Bold', sans-serif;
+         letter-spacing: 2px;
+ }
+ .h2{
+     padding:0px 15px;
+ }
+ .sub-headings{
+     
+     display:block;
+ } */
+
+/*.text{*/
+/*   margin: 50px 40px;*/
+/*   font-family: sans-serif;*/
+/*}*/
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p {
+    padding-top: 5px;
+
+}
+
+.img {
+    padding: 0 0 0 100px;
+    height: 250px;
+    width: 400x;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+.row {
+    padding: 50px 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta htto-equiv="X-UA-Compatiable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Report</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+
+<body>
+    <div class="section-center">
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="image">
+        </div>
+    </div>
+    <div>
+        <label for="employee_id">Employee ID:</label>
+        <input type="text" id="employee_id">
+    </div>
+    <div>
+        <label for="company_id">Company ID:</label>
+        <input type="text" id="company_id">
+    </div>
+    <div>
+        <label for="year">Year:</label>
+        <input type="text" id="year">
+    </div>
+    <button onclick="getData()" class="btn">Get Data</button>
+    <script src="report.js"></script>
+    <table id="data_table">
+        <thead>
+            <!--       <h2>Name: </h2>-->
+            <!--        <h2>ID: </h2>-->
+            <tr>
+                <th>Month </th>
+                <th>Days Worked</th>
+            </tr>
+        </thead>
+        <tbody id="data_body"></tbody>
+    </table>
+</body>
+
+</html>
